@@ -1,0 +1,44 @@
+<FrameLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tag="list"
+            />
+
+    <com.flavienlaurent.vdh.YoutubeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/dragLayout"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="25sp"
+                android:text="Drag me to the bottom"
+                android:tag="text"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:background="#AD78CC"/>
+
+        <TextView
+                android:id="@+id/desc"
+                android:tag="desc"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:text="Loreum Loreum Loreum Loreum Loreum Loreum LoreumLoreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum Loreum"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF00FF"/>
+
+    </com.flavienlaurent.vdh.YoutubeLayout>
+</FrameLayout>
